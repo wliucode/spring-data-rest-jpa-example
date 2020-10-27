@@ -6,7 +6,9 @@ This Project shows the list of Users and data are stored in the In-Memory H2 Dat
 
 By using the following endpoints, we can perform different operations as follows:
 
-/users/all - (GET) This returns the list of Users in the Users table which is created in H2
-/users/name/{name} - (GET) This returns the details of the User whose name is passed in URL 
-/users/load - (POST) Add new users using the Users model. 
+-- /users/all - (GET) This returns the list of Users in the Users table which is created in H2
+
+-- /users/name/{name} - (GET) This returns the details of the User whose name is passed in URL 
+
+-- /users/load - (POST) Add new users using the Users model. 
                 eg. { "name": "WLIU", "teamName": "Development", "salary": 1000 }
